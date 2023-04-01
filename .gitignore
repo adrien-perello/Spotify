@@ -1,0 +1,10 @@
+spotify_credentials.py
+Backup
+cachedir
+Data
+01_Spotify-Dataset.ipynb
+*.vscode
+*.cache
+*.ipynb_checkpoints
+*_private
+*__pycache__
