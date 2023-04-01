@@ -234,15 +234,16 @@ def get_single_artist_genres(artist_id, spotipy_client):
     Returns:
         list[str]: list of related spotify genres
     """
-    print("artist id: ", artist_id)
+    # print("artist id: ", artist_id)
     genres = request_artist_genre(artist_id=artist_id, spotipy_client=spotipy_client)
     if not genres:
-        print("genres = []")
+        # print("genres = []")
         genres = approximate_genres(
             artist_id=artist_id, track_id=None, spotipy_client=spotipy_client
         )
         if not genres:
-            print(f"Could not find related genres for artist: {artist_id}")
+            # print(f"Could not find related genres for artist: {artist_id}")
+            pass
     return genres
 
 
