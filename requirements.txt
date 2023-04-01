@@ -1,0 +1,8 @@
+pandas
+numpy
+spotipy
+joblib
+igraph
+leidenalg
+sklearn
+
